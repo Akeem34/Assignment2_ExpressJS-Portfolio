@@ -1,12 +1,40 @@
-<%- include('partials/header') %> <!-- Includes the Header for each page -->
+<%- include('partials/header') %>
 <%- include('partials/main_nav') %> <!-- Includes the navigation bar for each page -->
 
-<!-- Title code-->
-<h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    
+    <div class="container my-4" > <!-- my-4 is the margin for both top and bottom starting from 0-5 i chose 4-->
+        <h1 class="mb-4">About Me</h1> <!-- mb is just for the bottom-->
+        <div class="row     ">
+            <div class="col-md-6">
+                <h2 class="h4"><i class="fa-solid fa-user"></i> Bio</h2> <!-- Inclded another image from Fontawesome-->
+                <figure class="figure">
+                    <img src="assets/images/self.jpeg" class="figure-img img-fluid rounded" alt="Photo of Akeem Lanade">
+                    <figcaption class="figure-caption">Photo of Akeem Lanade</figcaption>
+                </figure>
+                <p>I am a Technology Management Student who switched over from Computer Science. I'm glad to meet you!
+                    hobbies include Gaming, reading, working out and talking with friends!.</p>
 
+            </div>
+            <div class="col-md-6"> <!-- md-6 stands for "at 768 px stack on top of eachother"-->
+                <h2 class="h4"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+                <p>Technology Management Sophomore at Ontario Tech University</p>
+                <h2 class="h4"><i class="fa-solid fa-code"></i> Skills</h2>
+                <ul class="list-group"> <!-- This is taken from the List group page from bootstrap-->
+                    <li class="list-group-item">HTML and CSS</li>
+                    <li class="list-group-item">JavaScript</li>
+                    <li class="list-group-item">Node.js and Express</li>
+                </ul>
+            </div>
+        </div>
 
+        <div class="row justify-content-center"> <!-- This line is taken from the justify-content section of the flex page-->
+            <div class="col-md-8" >
+                <div class="ratio ratio-16x9"> <!-- This is sizing for my video-->
+                    <video controls poster="assets/images/image.jpeg">
+                        <source src="assets/videos/Fridgely_Pitch.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-    <%- include('partials/footer') %><!-- Includes the footer for each page -->
+    <%- include('partials/footer') %>
