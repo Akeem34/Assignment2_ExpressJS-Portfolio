@@ -1,46 +1,93 @@
 <%- include('partials/header') %> <!-- Includes the Header for each page -->
 <%- include('partials/main_nav') %> <!-- Includes the navigation bar for each page -->
 
-<h1>Here is some of the work Ive done so far</h1>
+<div class="container my-4 ">
+  <h1 class="mb-4">Here is some of the work I've done so far</h1>
+
+    <!-- These are taken from the Grid cards section of bootstrap -->
+    <!-- the first 'row' allows the children to wrap around when they run out of room without it the cards just stack-->
+    <!--'row-cols-1' is what tells the children to take up one full grid space before wrapping-->
+    <!-- 'row-cols-md-2' here md stands for 768px or more, at that point we get 2 cards or more-->
+    <!--g-4 is just the width between cards, it goes from 0 - 5 -->
+    
+  <div class="row row-cols-1 row-cols-md-2 g-4" >
 
 
-    <div class="card mb-3">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Fridgely (Intro to Entrepreneurship)</h5>
-    <p class="card-text">A smart fridge tracker that turns your daily kitchen habits into real climate action. With Fridgely you can keep track of what's in your fridge, find smart recipe suggestions and keep an eye on your carbon footprint.</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <!-- Project 1 -->
+    <div class="col" >   <!-- col class allows for wrapping of text-->
+      <div class="card h-100" > <!-- h-100 tells cards to be the same width as long as they are at the same height-->
+        <div class="card-body">
+          <h5 class="card-title">Fridgely</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Intro to Entrepreneurship</h6>
+          <p class="card-text">A smart fridge tracker that turns your daily kitchen habits into real climate action. With Fridgely you can keep track of what's in your fridge, find smart recipe suggestions, and keep an eye on your carbon footprint.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Lloyds of London</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Object Oriented Programming</h6>
+          <p class="card-text">A banking system coded in Python that uses several Object Oriented Programming practices, including GUI creation with Tkinter, file manipulation, and inheritance.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Durham Financial</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Intro to Business Analytics</h6>
+          <p class="card-text">A loan calculator made in Excel using Visual Basic. It takes in a person's financial details, such as income, monthly expenses, and credit rating, and tells the user whether a loan application should be approved.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">Essay Writing</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Writing and Critical Thinking</h6>
+          <p class="card-text">Educated classmates on the importance and key points of an essay. Topics covered included why essays matter, the structure of an essay, and tips for writing better essays.</p>
+        </div>
+      </div>
+    </div>
+
+<!-- Project 5-->
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">project 5</h5>
+          <h6 class="card-subtitle mb-2 text-muted">project 5</h6>
+          <p class="card-text"> project 5 stuff</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 6 -->
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">project 6</h5>
+          <h6 class="card-subtitle mb-2 text-muted">project 6</h6>
+          <p class="card-text"> project 6 stuff</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
   </div>
 </div>
-<br>
-<div class="card mb-3">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Lloyds of London (Object Oriented Programming)</h5>
-    <p class="card-text">A banking system coded in Python encompassing numerous Object Oriented Programming practices such as GUI creation, file manipulation ,inheritance and Tkinter.</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-  </div>
-</div>
-<br>
-<div class="card mb-3">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Durham Financial (Intro to business analytics)</h5>
-    <p class="card-text">A loan calculator made in Excel using Visual Basic. Takes in a person's financial details such as their income, monthly expenses and their credit rating, and lets the user know whether they should approve a loan application or not</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-  </div>
-</div>
-<br>
-<div class="card mb-3">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Essay Writing (Writing and Critical Thinking)</h5>
-    <p class="card-text">Educated classmates on the importance and key points of an essay. Some things covered include why essays matter, the structure of an essay and tips for writting better essays</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-  </div>
-</div>
-<br>
-<br>
-<br>
-<br>
-    <%- include('partials/footer') %><!-- Includes the footer for each page -->
+
+<%- include('partials/footer') %> <!-- Includes the footer for each page -->
