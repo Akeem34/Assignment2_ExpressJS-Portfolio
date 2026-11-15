@@ -1,9 +1,23 @@
 <%- include('partials/header') %> <!-- Includes the Header for each page -->
 <%- include('partials/main_nav') %> <!-- Includes the navigation bar for each page -->
 
-<!-- Title code-->
-<h1><%= title %></h1>
+<div class="container my-5"> <!-- From the container page-->
+  <div class="row justify-content-center text-center"> <!-- Centers the container-->
+    <div class="col-md-8">
 
+     
+      <img src="assets/images/self.jpeg" class="figure-img img-fluid rounded mb-4" width="200" alt="Photo of Akeem Lanade">
 
+      <h1 class="display-5">Hi, I'm Akeem Lanade</h1>
+      <p class="lead">Tech Management Student learning web development with Node.js, Express, and EJS.</p>
 
-    <%- include('partials/footer') %><!-- Includes the footer for each page -->
+        <!-- buttons taken from the button group-->
+      <!-- Buttons linking contact and project  pages -->
+      <a class="btn btn-dark me-2" href="/projects"><i class="fa-solid fa-list-check"></i> My Projects</a>
+      <a class="btn btn-outline-dark" href="/contact"><i class="fa-regular fa-address-book"></i> Contact Me</a>
+
+    </div>
+  </div>
+</div>
+
+<%- include('partials/footer') %> <!-- Includes the footer for each page -->
