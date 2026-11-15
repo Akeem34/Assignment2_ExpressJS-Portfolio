@@ -1,6 +1,6 @@
 # Personal Portfolio -  Assignment 2
 
-- **Live site:** https://YOUR-SITE.onrender.com *(replace after deploying)*
+- **Live site:** https://YOUR-SITE.onrender.com 
 - **GitHub repository:** https://github.com/Akeem34/Assignment2_ExpressJS-Portfolio
 - **Author:** Akeem Lanade
 
