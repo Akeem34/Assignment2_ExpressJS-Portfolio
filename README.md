@@ -1,7 +1,7 @@
 # Personal Portfolio -  Assignment 2
 
-- **Live site:** https://YOUR-SITE.onrender.com 
-- **GitHub repository:** https://github.com/Akeem34/Assignment2_ExpressJS-Portfolio
+- **Live site:** https://akeem-l-assignment2-expressjs-portfolio.onrender.com/home
+- **GitHub repository:** https://github.com/Akeem34/Assignment2_ExpressJS-Portfolio.git
 - **Author:** Akeem Lanade
 
 ## Technologies Used
